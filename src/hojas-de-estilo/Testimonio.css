@@ -1,0 +1,37 @@
+.testimonio {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.imagen-testimonio {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.texto-testimonio {
+  flex: 1;
+}
+
+.nombre {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.cargo {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.texto {
+  font-size: 17px;
+  line-height: 1.5;
+}
